@@ -47,7 +47,7 @@ function scripts() {
   return gulp
     .src('./src/js/**/*.js')
     .pipe(concat('all.js'))
-    // .pipe(uglify())
+    .pipe(uglify())
     .pipe(gulp.dest('./dist/js'))
     .pipe(browserSync.stream());
 }
