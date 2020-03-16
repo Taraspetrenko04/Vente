@@ -1,0 +1,16 @@
+@import "reset";
+// Import variables
+@import "variables";
+// Import Mixins
+@import "mixins";
+
+// Import styles
+@import "./layout/_header";
+@import "./layout/_slider";
+@import "./layout/_content";
+@import "./layout/footer";
+@import "./layout/_registration";
+@import "./base/_base";
+
+
+

@@ -1,0 +1,22 @@
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+@mixin flex-left {
+    display: flex;
+    align-items: center;
+    justify-content: left; 
+}
+
+
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+@mixin overflow-scroll {
+    overflow: auto;
+}
